@@ -30,11 +30,10 @@ commonLabels:
   customer: customer1
   location: DXB
   managed-by: kustomize
-Images:
-
-  - newName: nixvarghese03/coit-simple-micro-GA
-    newtag: latest
-    name: nixvarghese03/coit-simple-micro-GA 
+images:
+  - name: nixvarghese03/frontend
+    newName: nixvarghese03/coit-simple-micro-ga
+    newTag: latest
 
 configMapGenerator:
   - name: frontend-map

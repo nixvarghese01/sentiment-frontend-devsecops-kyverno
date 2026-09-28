@@ -29,11 +29,10 @@ commonLabels:
   customer: customer1
   location: DXB
   managed-by: kustomize
-Images:
-
-  - newName: nixvarghese03/devsecop-frontend
-    newtag: 1.0.0
-    name: nixvarghese03/devsecop-frontend
+images:
+  - name: nixvarghese03/devsecop-frontend
+    newName: nixvarghese03/devsecop-frontend
+    newTag: 1.0.0
 
 configMapGenerator:
   - name: frontend-map
