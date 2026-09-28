@@ -1,0 +1,15 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+.vscode/
+# Node / React
+node_modules/
+build/
+coverage/
+npm-debug.log*
+yarn-error.log*
+.env.local
+# SonarScanner
+.scannerwork/
