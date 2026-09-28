@@ -34,4 +34,4 @@ kubectl apply -k frontend-kustomize-stage
 > `config.properties` and `provider.properties` contain placeholder values only. Use Kubernetes Secrets for real credentials.
 
 ## Branches
-`dev` (default)
+`main` (default)
